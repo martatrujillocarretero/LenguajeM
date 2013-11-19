@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title></title>
+			<link rel="stylesheet" href="">
+	</head>
+	<body>
+		
+		<h1> Diseña un formulario sencillo que contenga los siguientes campos: </h1> <br><br>
+
+		<ul>
+			<li>Usuario: campo de texto de tamaño 20 y longitud máxima de 12.</li>
+			<li>Contraseña: campo de contraseña de tamaño 12 y longitud máxima de 12.</li>
+			<li>Servicio: menú desplegable con las opciones [http,ftp,file] y seleccionado por defecto ftp.</li>
+			<li>Enviar: botón con la imagen de submit.</li>
+
+		</ul> <br><br>
+
+		Debes utilizar la etiqueta fieldset para agrupar todo los campos, con el título Datos de usuario. Se podrá recorrer los campos utilizando el tabulador (atributo tabindex). <br><br>
+
+		<form action="#" method="get" accept-charset="utf-8">
+			Usuario:
+			<input type="text" name="usuario" placeholder="Nombre de Usuario"><br>
+			Password:
+			<input type="password" name="contraseña"  placeholder="password"><br>
+			Servicios:
+			<select name="">
+				<option value="">http</option>
+				<option value="" selected>ftp</option>
+				<option value="">file</option>
+			</select>
+			<br><br>
+			<input type="submit" name="Enviar" value="Enviar">
+
+		</form>
+		<br>
+
+
+		<form>
+			<fieldset style="width:38">
+				<legend>Datos de usuario</legend>
+			<input type="radio" size="20" rows="12" cols="12">Usuario<br>
+			<input type="radio" size="20" rows="12">Contraseña<br>
+			<input type="radio" size="20" rows="12">Contraseña<br>
+			<input type="radio">Enviar<br>
+		</fieldset>
+		<br>
+
+			<input type="submit" value="Enviar">
+			
+		</form>	
+
+	</body>
+</html>
+

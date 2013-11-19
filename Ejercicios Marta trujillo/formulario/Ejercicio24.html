@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title></title>
+			<link rel="stylesheet" href="">
+	</head>
+	<body>
+		<h1><strong>Formulario de alta de usuario</strong></h1>
+		<br>
+
+		<table style="width:100%;"border="2" >
+			<tr>
+				<td align="center">Identificación de nuevo usuario<input type="text" name="usuario" value="" placeholder="usu_012345" disabled></td>
+			</tr>
+			<table style="width:100%;" border="2">
+				<tr style="width:55%;">
+					<td style="text-align:right">Nombre:</td>
+					<td><input type="text" name="Nombre" value="" placeholder="" size="60;"></td>
+					<td style="text-align:right">Apellidos:</td>
+					<td><input type="text" name="Apellidos" value="" placeholder="" size="60;"></td>
+				</tr>
+				<tr>
+					<td style="text-align:right">Contraseña:</td>
+					<td><input type="password" name="Contraseña" value="" placeholder="" size="60;"></td>
+					<td style="text-align:right">Confirmar contraseña:</td>
+					<td><input type="password" name="Confirmar contraseña" value="" placeholder="" size="60;"></td>
+				</tr>
+				<table style="width:100%;" border="2">
+					<tr>
+						<td style="text-align:right">Email:</td>
+						<td><input type="text" name="Email:" value="" placeholder="" size="55;"</td>
+					</tr>
+
+					<tr>
+						<td style="text-align:right">Sexo:</td>
+						<td><input type="radio" name="genero" value="">Varón <input type="radio" name="genero" value="" selected>Mujer</td>
+					</tr>
+
+					<tr>
+						<td style="text-align:right">Aficiones:</td>
+						<td><input type="checkbox" name="aficciones">Deporte <br> <input type="checkbox" name="aficciones">Lectura <br> <input type="checkbox" name="aficciones">Cine</td>
+					</tr>
+
+					<tr>
+						<td style="text-align:right;">Pais</td>
+						<td>
+							<select name="multiple" >
+								<option value"1">Francia</option>
+							</select>
+
+						</td>
+					</tr>
+
+					<tr>
+						<td style="text-align:right">Colores favoritos:</td>
+						<td>
+							<select name="multiple" multiple >
+								<option value"1">Rojo</option>
+								<option value"2">Verde</option>
+								<option value"3">Azul</option>
+							</select>
+
+						</td>
+					</tr>
+
+					<tr>
+						<td style="text-align:right">Subri su foto:</td>
+						<td>
+							<input type="hidden" name="fecha" value="">
+							<input type="file" name="adjunto"><br></td>	
+					</tr>
+
+					<tr>
+						<td style="text-align:right">Comentarios personales:</td>
+						<td>
+							<form action="" method="get" cept-charset="utf-8">
+								<textarea rows="8" cols="55"></textarea> <br><br>
+									<input type="hidden" name="userid" value="daw">
+			
+							</form>
+
+						</td>
+					</tr>
+				</table>
+				<table style="width:100%;" border="2">
+					<tr>
+						<td style="text-align:center"><input type="submit" value="Resetear"><input type="reset" value="Borrar"></td>
+
+					</tr>
+					
+					<tr>
+						<td align="center"><input type="text" name="" value="" placeholder="Modificar datos del usuario" disabled></td>
+
+					</tr>
+
+				</table>
+
+			</table>
+	
+			
+		
+
+		
+	</body>
+</html>

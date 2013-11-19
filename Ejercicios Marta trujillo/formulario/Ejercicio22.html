@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<title></title>
+			<link rel="stylesheet" href="">
+	</head>
+	<body>
+		<hr noshade size="2" style="width:40%" align="left"> 
+		<h1>Formulario 1</h1>
+		<form action="tratardatos.html" method="post">
+			Introduce tu nombre
+			<input type="text" name="usuario" value="" placeholder="nombre usuario"> <br>
+			<input type="submit" value="Prueba este formulario">
+		</form>
+		<hr noshade size="2" style="width:40%" align="left">
+
+		<h1>Formulario 2</h1>
+		En el siguiente formulario se utilizan campos de tipo textarea. Además tiene tres campos de tipo oculto ("hidden")con los siguientes nombres y valores:
+
+		<ul>
+			<li>userid"daw"</li>
+			<li>forn_name: "ejercicio"</li>
+			<li>topic:"textarea"</li>
+		</ul> <br><br>
+
+		<h2 style="color:blue">Informacion sobre la pagina :</h2> <br><br>
+
+		<form action="" method="get" cept-charset="utf-8">
+			<textarea rows="8" cols="55"></textarea> <br><br>
+			<input type="hidden" name="userid" value="daw">
+			encontrare esta pagina en:<br><br>
+			<textarea rows="3" cols="55"></textarea> <br><br>
+			<input type="hidden" name="forn_name" value="ejercicios">
+			correo electronico: <br><br>
+			<textarea rows="3" cols="55"></textarea> <br><br>
+			<input type="hidden" name="topic" value="textarea">
+			<input type="submit" value="Enviar"><br>
+		</form>
+
+		<hr noshade size="2" style="width:40%" align="left"> 
+
+		<h1>Forumulario 3</h1>
+		¿Cuales de estos deportes ves en televisión?
+		<form action="" method="get" cept-charset="utf-8"> <br>
+			
+			<input type="checkbox" name="deporte">Futbol <br>
+			
+			<input type="checkbox" name="deporte">Formula 1 <br>
+			
+			<input type="checkbox" name="deporte">Natacion <br>
+			
+			<input type="checkbox" name="deporte">Tiro con arco <br>
+			
+			<input type="checkbox" name="deporte">Baloncesto <br>
+			<input type="submit" value="enviar">
+			<input type="reset" value="Reiniciar">
+		</form>
+		<hr noshade size="2" style="width:40%" align="left"> 
+
+		<h1>Formulario 4</h1>
+		¿Cual es tu deporte favorito? <br>
+		<form action="" method="get">
+
+			<input type="radio" name="deporte" value="F">Futbol <br>
+			<input type="radio" name="deporte" value="F1">Formula 1 <br>
+			<input type="radio" name="deporte" value="N">Natacion <br>
+			<input type="radio" name="deporte" value="T">Tiro con arco <br>
+			<input type="radio" name="deporte" value="B">Baloncesto <br>
+			<input type="submit" value="enviar">
+			<input type="reset" value="Reiniciar">
+		</form>
+
+		<hr noshade size="2" style="width:40%" align="left"> 
+
+		<h1>Formulario 5</h1>
+		Lista de opciones <br>
+		¿Cual es tu sistema favorito? (desplegable) <br><br>
+		<form action="#" method="get">
+			<select name="multiple" >
+				<option value"1">Windows</option>
+				<option value"2">Mac</option>
+				<option value"3">Unix</option>
+			</select><br><br>
+		¿Cual es tu sistema favorito? (lista) <br><br>
+			<select name="" size="3">
+				<option value"1">Windows</option>
+				<option value"2">Mac</option>
+				<option value"3">Unix</option>
+			</select><br><br>
+		¿Cual es tu sistema favorito? (multiselect) <br><br>
+			<select name="multiple" multiple>
+				<option value"1">Windows</option>
+				<option value"2">Mac</option>
+				<option value"3">Unix</option>
+			</select><br><br>
+		<input type="submit" value="enviar">
+		<input type="reset" value="Reiniciar">
+	</form>
+
+	<hr noshade size="2" style="width:40%" align="left"> 
+	
+
+		<h1>Formulario 6</h1>
+		fieldset <br><br>
+		¿Cual es tu navegador favorito? <br><br>
+
+		Elige un navegador <br><br>
+		<form>
+			<fieldset style="width:38">
+				<legend> Elige un navegador:</legend>
+			<input type="radio">Firefox <br>
+			<input type="radio">Chrome <br>
+			<input type="radio">Safari <br>
+			<input type="radio">Explorer <br>
+			<input type="radio">Opera <br>
+		</fieldset>
+		<br>
+
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Reiniciar">
+		</form>			
+		
+	</body>
+
+</html>
